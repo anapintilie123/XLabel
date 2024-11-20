@@ -1,0 +1,16 @@
+{
+  "name": "SvelteKit Boilerplate",
+  "short_name": "SvelteKit",
+  "description": "SvelteKit starter template.",
+  "display": "minimal-ui",
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/favicons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
