@@ -8,6 +8,26 @@
 
 <br>
 
+# My SvelteKit Project
+A modern web application built with SvelteKit.
+
+## Description
+This is a responsive web application built using SvelteKit. It includes dynamic internationalization (i18n), Bootstrap styling, and a modern UI design. The project serves as a foundational template for creating professional-grade web applications.
+
+## Features
+- Built with [SvelteKit](https://kit.svelte.dev/)
+- Responsive design with [Bootstrap](https://getbootstrap.com/)
+- Internationalization (i18n) support
+- Fast client-side routing
+- Modular and scalable project structure
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   cd <project_directory>
+
 ## What's Included
 
 - Svelte 5
@@ -48,3 +68,13 @@ pnpm preview
 ## License
 
 Released under the [MIT](LICENSE.txt) license.
+
+##Project Structure
+├── src/
+│   ├── routes/          # Application pages and API routes
+│   ├── lib/             # Shared utilities and components
+│   ├── styles/          # Global CSS styles
+│   ├── app.html         # HTML entry point
+├── static/              # Static assets like images and fonts
+├── package.json         # Node.js dependencies and scripts
+└── svelte.config.js     # SvelteKit configuration
